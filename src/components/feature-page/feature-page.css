@@ -1,0 +1,123 @@
+.feature-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #B90000;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 32px;
+    font-weight: bold;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .date {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .featured { 
+    font-size: 18px;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .credits {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  
+  .credit-link {
+    font-size: 14px;
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  }
+
+  .credit-link:hover {
+    color: black;
+  }
+  
+  .separator {
+    font-size: 14px;
+    color: black;
+    margin: 0 10px;
+  }
+  
+  .media-item {
+    margin-bottom: 40px;
+    align-items: center;
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+  }
+  
+  .poem {
+    font-size: 18px;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 40px;
+    white-space: pre-wrap;
+  }
+
+  .poem p {
+    text-align: center;
+    padding: 0 50px;
+    white-space: pre-wrap;
+  }
+
+  .poem-credit {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+
+  .poem-credit:hover {
+    color: black;
+  }
+  
+  .image-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+  }
+  
+  .image-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin: 10px;
+    max-width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .image-credit-link {
+    color: white;
+    text-decoration: none;
+  }
+
+  .image-credit-link:hover{
+    color: black;
+  }
+  
+  .learn-more-link {
+    font-size: 18px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 40px;
+  }
+
+  .learn-more-link:hover {
+    color: black;
+  }
+  

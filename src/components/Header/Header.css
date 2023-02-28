@@ -1,0 +1,58 @@
+.home-page {
+    background-color: #b90000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
+  
+  .logo {
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+  }
+  
+  
+  .subheader {
+    color: #fff;
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  
+  .menu {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .menu-item {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .menu-item:hover::before,
+.menu-item:hover::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: black;
+}
+
+.menu-item:hover::before {
+  top: -10px;
+}
+
+.menu-item:hover::after {
+  bottom: -10px;
+}

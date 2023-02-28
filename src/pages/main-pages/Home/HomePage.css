@@ -1,0 +1,8 @@
+.home-page {
+    background-color: #b90000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    padding: 20px;
+  }
